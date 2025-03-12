@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>hexo使用</title>
+    <link href="/2025/03/12/hexo%E4%BD%BF%E7%94%A8/"/>
+    <url>/2025/03/12/hexo%E4%BD%BF%E7%94%A8/</url>
+    
+    <content type="html"><![CDATA[<h1 id="Hexo使用教程"><a href="#Hexo使用教程" class="headerlink" title="Hexo使用教程"></a>Hexo使用教程</h1><h2 id="创建新文章"><a href="#创建新文章" class="headerlink" title="创建新文章"></a>创建新文章</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash">在hexo-bolg,即你上传github时候使用hexo创建的项目根路径下</span><br>hexo new &lt;title&gt;<br></code></pre></td></tr></table></figure><p>通常使用hexo new <title>即可，默认post，注意这里的title不是文章名，具体文章中显示的文章标题可以在文章文件中修改</p><p>此时在source&#x2F;_posts&#x2F;文件夹中多了一个xxx.md文件</p><h2 id="删除文章"><a href="#删除文章" class="headerlink" title="删除文章"></a>删除文章</h2><p>删除文章：直接删除_posts文件夹下xxx.md即可</p><p>xxx.md中两条—之间的内容为文章的配置内容，可以在其中设置标签、分类等。其中的title为文章发布后文章页面显示的标题</p><p>而.md文件的名字，也就是我们新建文章时输入的名字，是作为文章页面链接中显示的名字</p><p>例如，本篇文章的文件名为：article.md，文章内设置的文章标题为Hexo博客新建文章并发布，那么本篇文章的链接就是<a href="https://shang-th.github.io/2025/03/12/xxx/">https://shang-th.github.io/2025/03/12/xxx/</a></p><h2 id="发布至GitHub"><a href="#发布至GitHub" class="headerlink" title="发布至GitHub"></a>发布至GitHub</h2><p>参考：<a href="https://www.cnblogs.com/leskang/p/14044259.html">https://www.cnblogs.com/leskang/p/14044259.html</a></p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs shell">hexo clean <br>hexo g <br>hexo s  #本地预览<br>hexo d  #本地预览无误之后上传GitHub<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>hexo使用</category>
+      
+      <category>Hexo</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2025/03/12/hello-world/"/>
     <url>/2025/03/12/hello-world/</url>
